@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <icon>
+        <large-icon></large-icon>
+    </icon>
+
+    <display-name>HSqlServer</display-name>
+    <description>Local HSqlDB server for TomEE</description>
+
+    <context-param>
+        <param-name>webmaster</param-name>
+        <param-value>tech@gobothegeek.ch</param-value>
+        <description></description>
+    </context-param>
+
+    <servlet>
+        <servlet-name>HSqlServer</servlet-name>
+        <servlet-class>ch.gobothegeek.hsqlsrv.HSqlServerApp</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+</web-app>
