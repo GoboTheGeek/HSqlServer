@@ -1,11 +1,26 @@
 # HSqlServer
 Minimalist HSqlDB server for TomEE.
 
-This project allow you to manage one or more database inside a TomEE server.
+# Abandonnez GitHub
 
-Requires TomEE v8 and Java v11.
+Ce projet a abandonné GitHub. ([Voir le site *Give Up GitHub* de Software Freedom Conservancy pour plus de détails](https://GiveUpGitHub.org).) 
 
-## How to configure?
-Edit file src/main/resources/META-INF/apache-deltaspike.properties
-- application.port is the port number to connect on. 
-- application.databases is a list of databases to expose to other webapps. Format is: &lt;name&gt;:&lt;path&gt;;
+Vous pouvez maintenant trouver ce projet sur [Gobo The Geek](https://www.gobothegeek.ch/) à la place. 
+
+Toute utilisation du code de ce projet par GitHub Copilot, passé ou présent, se fait sans notre permission. Nous ne consentons pas à l'utilisation par GitHub du code de ce projet dans Copilot. 
+
+Rejoignez-nous; vous pouvez [abandonner GitHub] (https://GiveUpGitHub.org) aussi!
+
+---
+
+# Give Up GitHub
+
+This project has given up GitHub.  ([See Software Freedom Conservancy's *Give Up  GitHub* site for details](https://GiveUpGitHub.org).)
+
+You can now find this project at [Gobo The Geek](https://www.gobothegeek.ch/) instead.
+
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission.  We do not consent to GitHub's use of this project's code in Copilot.
+
+Join us; you can [give up GitHub](https://GiveUpGitHub.org) too!
+
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
